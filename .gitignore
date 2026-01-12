@@ -1,0 +1,29 @@
+# Binaries
+redis-clone
+memkv-server
+*.exe
+*.test
+
+# Go related
+go.work
+go.work.sum
+vendor/
+
+# Test output
+*.out
+*.prof
+memkv/
+tests/performance/summary.html
+
+# K6
+k6
+k6.tar.gz
+k6-*/
+
+# OS specific
+.DS_Store
+.idea/
+.vscode/
+
+# Brain
+.gemini/
